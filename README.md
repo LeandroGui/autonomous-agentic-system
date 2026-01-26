@@ -1,4 +1,4 @@
-# 🌌 CORTEX: Autonomous Agentic System
+# 🌌 AUTONOMOUS AGENTIC SYSTEM
 
 ![Status](https://img.shields.io/badge/Status-Operational%20v1.0-00ff41?style=for-the-badge)
 ![AI](https://img.shields.io/badge/Core-Gemini%202.5%20Flash-4cc9f0?style=for-the-badge)
@@ -11,9 +11,9 @@
 
 ## 🤖 Visión General
 
-**Cortex** no es un simple chatbot; es un **Sistema Agéntico Autónomo** diseñado para razonar, planificar y ejecutar tareas complejas de ingeniería de datos y programación. 
+No es un simple chatbot; es un **Sistema Agéntico Autónomo** diseñado para razonar, planificar y ejecutar tareas complejas de ingeniería de datos y programación. 
 
-A diferencia de los LLMs tradicionales que solo generan texto, Cortex posee un **bucle de ejecución ReAct (Reason + Act)** que le permite:
+A diferencia de los LLMs tradicionales que solo generan texto, posee un **bucle de ejecución ReAct (Reason + Act)** que le permite:
 1.  **Escribir y ejecutar código Python** en un entorno controlado (Sandbox).
 2.  **Analizar Datasets** (CSV) y generar estadísticas reales.
 3.  **Aprender** de documentos locales (RAG) para adquirir nuevo conocimiento técnico.
@@ -28,14 +28,12 @@ Todo esto envuelto en una interfaz gráfica con estética **Synthwave/Cyberpunk*
 ### 1. El Tablero de Control (UI)
 *Interfaz desarrollada en Streamlit con inyección de CSS personalizado para estética "Miami Nights", audio reactivo y gestión de archivos.*
 
-![Cortex Dashboard](assets/ui_dashboard.png)
-*(Coloca aquí una captura de tu interfaz web)*
+<img src="assets/ui_dashboard.png" width="800" alt="Tablero UI">
 
 ### 2. El "Pensamiento" del Agente (CLI)
 *Visualización del proceso de razonamiento interno, uso de herramientas y validación de seguridad en tiempo real.*
 
-![Terminal Log](assets/terminal_matrix.png)
-*(Coloca aquí una captura de tu terminal ejecutando main.py)*
+<img src="assets/terminal_matrix.png" width="800" alt="Terminal">
 
 ---
 
@@ -62,3 +60,27 @@ graph TD
     
     Exec -->|Resultado| Brain
     Brain -->|Respuesta Final| User
+```
+
+## 🧬 Ejemplo de Flujo de Razonamiento (Trace)
+A continuación, un extracto real del log de auditoría que muestra cómo el Sistema Agentico resuelve un problema:
+
+Usuario: "Lee el documento adjunto y resuelve el ejercicio 1 en python, se debe incluir ejemplo de uso."
+
+<img src="assets/log.png" width="800" alt="Extracto log de auditoría">
+
+## 💻 Tech Stack
+Lenguaje: Python 3.10+
+
+LLM: Google Gemini 2.5 Flash
+
+Frontend: Streamlit (Custom CSS/JS Injection)
+
+Vector DB: ChromaDB (Persistente)
+
+Data: Pandas, NumPy
+
+CLI Visuals: Rich Library
+
+Contacto
+Desarrollado por Leandro Guiñazu. Ingeniería de IA & Desarrollo de Sistemas Agénticos.

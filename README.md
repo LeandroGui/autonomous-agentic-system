@@ -269,5 +269,7 @@ Data: Pandas, NumPy
 
 CLI Visuals: Rich Library
 
-Contacto
+
+## 📬 Contacto
+
 Desarrollado por Leandro Guiñazu. Ingeniería de IA & Desarrollo de Sistemas Agénticos.

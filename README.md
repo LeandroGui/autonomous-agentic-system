@@ -49,13 +49,19 @@ graph TD
     
     subgraph "Cortex Core (Brain)"
         PersonaDS & PersonaDev --> Brain[Gemini 2.5 Flash]
-        Brain <--> Memory[(ChromaDB Memory)]
+        Brain <-->|Context Retrieval| Memory[(ChromaDB Memory)]
     end
     
-    subgraph "Tools Layer (Sandbox)"
+    subgraph "Tools Layer & Sandbox"
+        %% Ejecución de Código
         Brain -->|Genera Código| Validator[AST Security Validator]
         Validator -->|Aprobado| Exec[Python Runtime / Pandas]
         Validator -->|Bloqueado| Error[Security Alert]
+        
+        %% Lógica RAG
+        Brain -->|Tool: learn_from_docs| RAG[📚 RAG Engine]
+        LocalDocs[📂 data/docs/] -.->|Lectura| RAG
+        RAG -->|Chunking & Embeddings| Memory
     end
     
     Exec -->|Resultado| Brain

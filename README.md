@@ -67,7 +67,11 @@ A continuación, un extracto real del log de auditoría que muestra cómo el Sis
 
 Usuario: "Hay un nuevo documento adjunto, leelo y resuelve el ejercicio 1 (Gestión de Cuenta Bancaria (Encapsulamiento)) en python, se debe incluir ejemplo de uso."
 
-```markdown
+```html
+<details>
+  <summary>Haz clic para ver el contenido adicional</summary>
+  
+  
 [01:24:47] [INPUT USUARIO]
 Hay un nuevo documento adjunto, leelo y resuelve el ejercicio 1 (Gestión de Cuenta Bancaria (Encapsulamiento)) en python, se debe incluir ejemplo de uso.
 ------------------------------
@@ -255,6 +259,9 @@ Retiro exitoso. Nuevo balance: 50.00
 Titular: Maria Lopez, Cantidad: 50.00
 ```
 ------------------------------
+</details>
+```
+
 
 ## 💻 Tech Stack
 Lenguaje: Python 3.10+

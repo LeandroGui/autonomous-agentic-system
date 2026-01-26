@@ -274,5 +274,6 @@ CLI Visuals: Rich Library
 
 Desarrollado por Leandro Guiñazu. Ingeniería de IA & Desarrollo de Sistemas Agénticos.
 
-[![Gmail](https://img.shields.io/badge/Gmail--informational?style=social&logo=gmail)](leandrodeep@gmail.com)
+[![Gmail](![Gmail](https://img.shields.io/badge/Gmail--informational?style=social&logo=gmail)
+)](leandrodeep@gmail.com)
 

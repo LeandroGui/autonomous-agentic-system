@@ -47,7 +47,7 @@ graph TD
     Router -->|Data Science| PersonaDS[Perfil: Data Scientist]
     Router -->|Coding| PersonaDev[Perfil: Python Tutor]
     
-    subgraph "Cortex Core (Brain)"
+    subgraph "Core (Brain)"
         PersonaDS & PersonaDev --> Brain[Gemini 2.5 Flash]
         Brain <-->|Context Retrieval| Memory[(ChromaDB Memory)]
     end
@@ -60,7 +60,7 @@ graph TD
         
         %% Lógica RAG
         Brain -->|Tool: learn_from_docs| RAG[📚 RAG Engine]
-        LocalDocs[📂 data/docs/] -.->|Lectura| RAG
+        LocalDocs[📂 docs/] -.->|Lectura| RAG
         RAG -->|Chunking & Embeddings| Memory
     end
     

@@ -26,7 +26,7 @@ Todo esto envuelto en una interfaz gráfica con estética **Synthwave/Cyberpunk*
 ## 📸 Demo & Visuales
 
 ### 1. El Tablero de Control (UI)
-*Interfaz desarrollada en Streamlit con inyección de CSS personalizado para estética "Miami Nights", audio reactivo y gestión de archivos.*
+*Interfaz desarrollada en Streamlit con inyección de CSS personalizado para estética "Miami Nights", y gestión de archivos.*
 
 <img src="assets/ui_dashboard.png" width="800" alt="Tablero UI">
 

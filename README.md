@@ -1,4 +1,4 @@
-# 🌌 AUTONOMOUS AGENTIC SYSTEM
+# AUTONOMOUS AGENTIC SYSTEM
 
 ![Status](https://img.shields.io/badge/Status-Operational%20v1.0-00ff41?style=for-the-badge)
 ![AI](https://img.shields.io/badge/Core-Gemini%202.5%20Flash-4cc9f0?style=for-the-badge)
